@@ -7,10 +7,9 @@
           "*://marketplace.xbox.com/*", 
           "*://live.xbox.com/*"
         ],
-      "js": ["convert.js"]
+      "js": ["lib/convert.js"]
     }
     ],
-  "options_page": "options.html",
   "icons" : {
     "48" : "images/ms_points_icon_grey.png",
     "128" : "images/ms_points_icon_grey.png"
