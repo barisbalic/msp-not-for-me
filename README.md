@@ -9,7 +9,6 @@ The default values are set for the UK, but you can localise them by going to...
 ```
 
 ### Usage
-
 Just go about your normal business and you should find that whenever you're looking at xbox live purchases you see them in real monies.
 
 ### Contributing?
