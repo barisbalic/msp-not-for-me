@@ -4,28 +4,25 @@
   "content_scripts": [
     {
       "matches": [
-          "*://marketplace.xbox.com/*", 
-          "*://live.xbox.com/*"
+          "*://*.xbox.com/*"
         ],
       "js": ["lib/convert.js"]
     }
     ],
   "icons" : {
-    "48" : "images/ms_points_icon_grey.png",
-    "128" : "images/ms_points_icon_grey.png"
+    "48" : "images/medium.png",
+    "128" : "images/large.png"
   },
   "page_action" :
   {
-    "default_icon" : "images/ms_points_icon_grey.png",
+    "default_icon" : "images/schmall.png",
     "default_title" : "MSP Not For Me"
   },
   "name": "MSP Not For Me",
-  "description": "Let your browser tell you how much your microsoft xbox live purchases will be in real terms with this extension.",
-  "version": "0.2",
+  "description": "Let your browser tell you how much your Microsoft Xbox Live purchases will be in real terms with this extension.",
+  "version": "1.0",
   "permissions": [
-      "storage",
       "tabs",
-      "*://marketplace.xbox.com/*",
-      "*://live.xbox.com/*"
+      "*://*.xbox.com/*"
     ]
 }
