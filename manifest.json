@@ -19,7 +19,7 @@
     "default_title" : "MSP Not For Me"
   },
   "name": "MSP Not For Me",
-  "description": "Let your browser tell you how much your Microsoft Xbox Live purchases will be in real terms with this extension.",
+  "description": "Let your browser tell you how much your Microsoft Xbox Live purchases will cost in real currency with this extension.",
   "version": "1.0",
   "permissions": [
       "tabs",
